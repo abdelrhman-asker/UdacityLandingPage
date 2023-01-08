@@ -10,7 +10,7 @@ document
 // function for Scrolling to Section Instead of Making it Using Href to Sections Id Because This Method will Change on URL)
 const MainFunc = () => {
   for (let i = 0; i < 4; i++) {
-    const ChildLi = document.createElement("a");
+    const ChildLi = document.createElement("li");
     ChildLi.innerHTML = `Section${i + 1}`;
     ChildLi.setAttribute("class", `section${i + 1}`);
     ChildLi.setAttribute(
